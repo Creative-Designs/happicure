@@ -225,21 +225,6 @@ input::placeholder{
 	margin:0 20px 10px 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*==================media query=================*/
  @media screen and (min-width:100px) and (max-width:400px){
 	/*=================facebook_btn============*/
@@ -405,7 +390,7 @@ input::placeholder{
 	 /*=================facebook_btn============*/
 	.form_style{
   
-	margin:20px 0 0 40px;
+	margin:0 0 40px 40px;
 	background:#313D4F;
 	padding:30px;
 }
@@ -444,12 +429,30 @@ input::placeholder{
 	font-weight:bold;
 	width:120px;
 }
+.navigation_style{
+	padding:0 0 0 10px;
+	
+}
+.img_btn{
+	background:#313D4F;
+	border:none;
+	border-radius:0;
+	height:40px;
+	margin:0 0 20px 0;
+}
+.about_head{
+	font-size:25px;
+	color:#0F7BA3;
+	font-weight:bold;
+	margin:0 0 10px 0;
+}
  }
 /*=================media query 640px======================*/
 @media screen and (min-width:641px) and (max-width:767px){
 }
 /*=============media query ipad============*/
 @media screen and (min-width:768px) and (max-width:1024px){
+	
 	
 @font-face{
 	font-family:'head_font';
@@ -500,8 +503,8 @@ margin-left: auto !important;
 }
 
 .form_style{
-	top:70px;
-	margin:20px 0 0 0;
+	top:60px;
+	margin:0 0 20px 0!important;
 	background:#313D4F;
 	padding:30px;
 }
@@ -643,7 +646,9 @@ input::placeholder{
 
 }
 /*=============media query ipad pro============*/
-@media screen and (min-width:993px) and (max-width:1200px){
+@media screen and (min-width:1025px) and (max-width:1200px){
+	
+	
 }
 
 
