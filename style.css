@@ -1,0 +1,659 @@
+
+@font-face{
+	font-family:'head_font';
+	src:url('fonts/Aileron-Light.otf');
+}
+@font-face{
+	font-family:'feature_font';
+	src:url('fonts/Champagne & Limousines Bold.ttf');	
+}
+@font-face{
+	font-family:'banner_font';
+	src:url('fonts/boldfont.ttf');	
+}
+
+	
+body {
+    overflow-x: hidden !important;
+	}
+.container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+           }
+.container-fluid {
+overflow-x: hidden !important;
+padding-right: 0!important;
+padding-left:0!important;
+margin-right: auto !important;
+margin-left: auto !important;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #A0B5B7;
+    margin: 1em 0;
+    padding: 0; 
+}
+.join_new_btn{
+	background:#327CC8;
+	color:#fff;
+}
+.banner_part{
+	background:url('img/banner_1.jpeg') no-repeat;
+	min-height:550px;
+	position:relative;
+	padding:0 40px 0 0;
+}
+/*================navbar==============*/
+.navigation_style{
+	padding:0 0 0 190px;
+	
+}
+.navar_mystyle{
+	background:transparent!important;
+	border:none!important;
+	
+}
+
+.form_style{
+	top:70px;
+	margin:20px 0 0 0;
+	background:#313D4F;
+	padding:30px;
+}
+input{
+	border: 0!important;
+	border-bottom:1px solid #fff!important;
+	background: transparent!important;
+	outline: 0 !important;
+	box-shadow:none!important;
+	color:#fff!important;
+	border-radius:0!important;
+	margin:10px 0 0 0 !important;
+}
+input::placeholder{
+	color:#B4B4B4!important;
+}
+.logo_style{
+	color:#327CC8;
+	font-size:20px;
+}
+.my_formcontrol{
+	border-radius:0;
+	height:50px;
+}
+.InputBox{
+	width:170px;
+	display:inline !important;
+	
+}
+/*=================facebook_btn============*/
+.facebook_btn{
+	background:#3B5998;
+	border:none;
+	border-radius:2px;
+	font-size:15px;
+}
+.facebook_icon{
+	margin:0 10px 0 0;
+	font-size:20px;
+}
+.google_btn{
+	background:#D34836;
+	border:none;
+	border-radius:2px;
+	font-size:15px;
+}
+.google_icon{
+	margin:0 10px 0 0;
+	font-size:20px;
+}
+.join_btn{
+	background:#FFFFFF;
+	border:none;
+	border-radius:0;
+	font-size:18px;
+	color:#313D4F;
+	font-weight:bold;
+	width:120px;
+}
+/*==========img part================*/
+.img_heading{
+	font-size:28px;
+	color:#43565D;
+	font-weight:bold;
+	font-family:'head_font';
+	margin:0 0 40px 0;
+}
+.img_smallhead{
+	font-size:20px;
+	color:#43565D;
+	font-weight:bold;
+
+	margin:30px 0 0 0;
+}
+.img_para{
+	font-size:14px;
+	color:#43565D;
+	margin:10px 0 20px 0;
+}
+.img_btn{
+	background:#313D4F;
+	border:none;
+	border-radius:0;
+	height:40px;
+}
+/*================img part=================*/
+.img_part{
+	padding:50px;
+}
+/*=================how it works===============*/
+.how_head{
+	font-size:48px;
+	color:#0F7BA3;
+	font-weight:bold;
+	font-family:'head_font';
+	margin:30px 0 10px 0;
+}
+.more_surveys{
+	font-size:26px;
+	color:#2A6880;
+	font-weight:bold;
+	font-family:'head_font';
+	margin:0 0 40px 0;
+}
+.register_text{
+	font-size:18px;
+	color:#43565D;
+	margin:20px 0 20px 0;
+	font-weight:bold;
+}
+.register_icon{
+	margin:0 auto;
+}
+.register_para{
+	font-size:15px;
+	color:#43565D;
+	margin:0px 0 50px 0;
+
+}
+/*==================footer part===========*/
+.footer_part{
+	background:#11BBCF;
+	padding:10px;
+}
+.footer_text{
+	font-size:15px;
+	color:#fff;
+	margin:5px 0 0 40px;
+
+}
+.footer_text_2{
+	font-size:15px;
+	color:#fff;
+	font-weight:bold;
+	margin:5px 0 0 0;
+
+}
+/*============about==================*/
+.about_part{
+	padding:40px;
+}
+.about_head{
+	font-size:25px;
+	color:#0F7BA3;
+	font-weight:bold;
+	margin:25px 0 30px 0;
+}
+.about_para{
+	font-size:16px;
+	color:#43565D;
+
+	margin:25px 20px 10px 0;
+}
+.why_para{
+	font-size:16px;
+	color:#43565D;
+
+	margin:20px 0 0 0;
+}
+.check_icon{
+	font-size:16px;
+	color:#0F7BA3;
+
+	margin:0 20px 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==================media query=================*/
+ @media screen and (min-width:100px) and (max-width:400px){
+	/*=================facebook_btn============*/
+	.form_style{
+  
+	margin:-10px 0 0 40px;
+	background:#313D4F;
+	padding:30px;
+}
+	.InputBox{
+		width:100%;
+	}
+	.navigation_style{
+	padding:0 0 0 0;
+	
+}
+.facebook_btn{
+	background:#3B5998;
+	border:none;
+	border-radius:2px;
+	font-size:15px;
+	width:100%;
+	margin:0 0 20px 0;
+}
+.facebook_icon{
+	margin:0 10px 0 0;
+	font-size:20px;
+}
+.google_btn{
+	width:100%;
+	background:#D34836;
+	border:none;
+	border-radius:2px;
+	font-size:15px;
+}
+.google_icon{
+	margin:0 10px 0 0;
+	font-size:20px;
+}
+.join_btn{
+	background:#FFFFFF;
+	border:none;
+	border-radius:0;
+	font-size:18px;
+	color:#313D4F;
+	font-weight:bold;
+	width:120px;
+}
+/*==========img part================*/
+.img_heading{
+	font-size:28px;
+	color:#43565D;
+	font-weight:bold;
+	font-family:'head_font';
+	margin:20px 0 40px 0;
+}
+.img_smallhead{
+	font-size:20px;
+	color:#43565D;
+	font-weight:bold;
+
+	margin:30px 0 0 0;
+}
+.img_para{
+	font-size:14px;
+	color:#43565D;
+	margin:10px 0 20px 0;
+}
+.img_btn{
+	background:#313D4F;
+	border:none;
+	border-radius:0;
+	height:40px;
+}
+/*================img part=================*/
+.img_part{
+	padding:50px;
+}
+/*=================how it works===============*/
+.how_head{
+	font-size:38px;
+	color:#0F7BA3;
+	font-weight:bold;
+	font-family:'head_font';
+	margin:0 0 20px 0;
+}
+.more_surveys{
+	font-size:26px;
+	color:#2A6880;
+	font-weight:bold;
+	font-family:'head_font';
+	margin:0 0 40px 0;
+}
+.register_text{
+	font-size:18px;
+	color:#43565D;
+	margin:20px 0 20px 0;
+	font-weight:bold;
+}
+.register_icon{
+	margin:0 auto;
+}
+.register_para{
+	font-size:15px;
+	color:#43565D;
+	margin:0px 0 50px 0;
+
+}
+/*==================footer part===========*/
+.footer_part{
+	background:#11BBCF;
+	padding:10px;
+}
+.footer_text{
+	font-size:15px;
+	color:#fff;
+	margin:5px 0 0 0;
+
+}
+.footer_text_2{
+	font-size:15px;
+	color:#fff;
+	font-weight:bold;
+	margin:5px 0 0 0;
+
+}
+/*============about==================*/
+.about_part{
+	padding:20px 40px 10px 40px;
+}
+.about_head{
+	font-size:25px;
+	color:#0F7BA3;
+	font-weight:bold;
+	margin:0 0 30px 0;
+}
+.about_para{
+	font-size:16px;
+	color:#43565D;
+
+	margin:25px 0 10px 0;
+}
+.why_para{
+	font-size:16px;
+	color:#43565D;
+
+	margin:20px 0 0 0;
+}
+.check_icon{
+	font-size:16px;
+	color:#0F7BA3;
+
+	margin:0 20px 10px 0;
+}
+
+
+
+
+ 
+ }
+ /*============================media query iphone================================*/
+ @media screen and (min-width:401px) and (max-width:640px){
+	 /*=================facebook_btn============*/
+	.form_style{
+  
+	margin:20px 0 0 40px;
+	background:#313D4F;
+	padding:30px;
+}
+	.InputBox{
+		width:100%;
+	}
+.facebook_btn{
+	background:#3B5998;
+	border:none;
+	border-radius:2px;
+	font-size:15px;
+	width:100%;
+	margin:0 0 20px 0;
+}
+.facebook_icon{
+	margin:0 10px 0 0;
+	font-size:20px;
+}
+.google_btn{
+	width:100%;
+	background:#D34836;
+	border:none;
+	border-radius:2px;
+	font-size:15px;
+}
+.google_icon{
+	margin:0 10px 0 0;
+	font-size:20px;
+}
+.join_btn{
+	background:#FFFFFF;
+	border:none;
+	border-radius:0;
+	font-size:18px;
+	color:#313D4F;
+	font-weight:bold;
+	width:120px;
+}
+ }
+/*=================media query 640px======================*/
+@media screen and (min-width:641px) and (max-width:767px){
+}
+/*=============media query ipad============*/
+@media screen and (min-width:768px) and (max-width:1024px){
+	
+@font-face{
+	font-family:'head_font';
+	src:url('fonts/Aileron-Light.otf');
+}
+@font-face{
+	font-family:'feature_font';
+	src:url('fonts/Champagne & Limousines Bold.ttf');	
+}
+@font-face{
+	font-family:'banner_font';
+	src:url('fonts/boldfont.ttf');	
+}
+
+	
+body {
+    overflow-x: hidden !important;
+	}
+.container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+           }
+.container-fluid {
+overflow-x: hidden !important;
+padding-right: 0!important;
+padding-left:0!important;
+margin-right: auto !important;
+margin-left: auto !important;
+}
+.banner_part{
+	background:url('img/banner_1.jpeg') no-repeat;
+	min-height:550px;
+	position:relative;
+	padding:0 40px 0 0;
+}
+/*================navbar==============*/
+.navigation_style{
+	padding:0 0 0 0!important;
+	
+}
+.navigation_style li a{
+ font-size:12px!important;	
+}
+.navar_mystyle{
+	background:transparent!important;
+	border:none!important;
+	
+}
+
+.form_style{
+	top:70px;
+	margin:20px 0 0 0;
+	background:#313D4F;
+	padding:30px;
+}
+input{
+	border: 0!important;
+	border-bottom:1px solid #fff!important;
+	background: transparent!important;
+	outline: 0 !important;
+	box-shadow:none!important;
+	color:#fff!important;
+	border-radius:0!important;
+	margin:10px 0 0 0 !important;
+}
+input::placeholder{
+	color:#B4B4B4!important;
+}
+.logo_style{
+	color:#327CC8;
+	font-size:20px;
+}
+.my_formcontrol{
+	border-radius:0;
+	height:50px;
+}
+.InputBox{
+	width:100%!important;
+	display:inline !important;
+	
+}
+/*=================facebook_btn============*/
+.facebook_btn{
+	background:#3B5998;
+	border:none;
+	border-radius:2px;
+	font-size:15px;
+	margin:0 0 20px 0;
+}
+.facebook_icon{
+	margin:0 10px 0 0;
+	font-size:20px;
+}
+.google_btn{
+	background:#D34836;
+	border:none;
+	border-radius:2px;
+	font-size:15px;
+}
+.google_icon{
+	margin:0 10px 0 0;
+	font-size:20px;
+}
+.join_btn{
+	background:#FFFFFF;
+	border:none;
+	border-radius:0;
+	font-size:18px;
+	color:#313D4F;
+	font-weight:bold;
+	width:120px;
+}
+/*==========img part================*/
+.img_heading{
+	font-size:16px;
+	color:#43565D;
+	font-weight:bold;
+	font-family:'head_font';
+	margin:0 0 20px 0;
+}
+.img_smallhead{
+	font-size:16px;
+	color:#43565D;
+	font-weight:bold;
+
+	margin:30px 0 0 0;
+}
+.img_para{
+	font-size:14px;
+	color:#43565D;
+	margin:10px 0 20px 0;
+}
+.img_btn{
+	background:#313D4F;
+	border:none;
+	border-radius:0;
+	height:40px;
+}
+/*================img part=================*/
+.img_part{
+	padding:50px;
+}
+/*=================how it works===============*/
+.how_head{
+	font-size:30px;
+	color:#0F7BA3;
+	font-weight:bold;
+	font-family:'head_font';
+	margin:0 0 20px 0;
+}
+.more_surveys{
+	font-size:22spx;
+	color:#2A6880;
+	font-weight:bold;
+	font-family:'head_font';
+	margin:0 0 40px 0;
+}
+.register_text{
+	font-size:18px;
+	color:#43565D;
+	margin:20px 0 20px 0;
+	font-weight:bold;
+}
+.register_icon{
+	margin:0 auto;
+}
+.register_para{
+	font-size:15px;
+	color:#43565D;
+	margin:0px 0 50px 0;
+
+}
+/*==================footer part===========*/
+.footer_part{
+	background:#11BBCF;
+	padding:10px;
+}
+.footer_text{
+	font-size:15px;
+	color:#fff;
+	margin:5px 0 0 40px;
+
+}
+.footer_text_2{
+	font-size:15px;
+	color:#fff;
+	font-weight:bold;
+	margin:5px 0 0 0;
+
+}
+
+}
+/*=============media query ipad pro============*/
+@media screen and (min-width:993px) and (max-width:1200px){
+}
+
+
+
+
+
+
+
+
+
+
+
+
