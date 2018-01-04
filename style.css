@@ -50,7 +50,7 @@ hr {
 }
 .banner_part{
 	background:url('img/banner_2.jpg') no-repeat;
-	min-height:350px;
+	min-height:33px;
 	position:relative;
 	padding:0 40px 0 0;
 }
@@ -83,7 +83,7 @@ input{
 	box-shadow:none!important;
 	color:#fff!important;
 	border-radius:0!important;
-	margin:0 0 0 0 !important;
+	margin:-5px 0 0 0 !important;
 }
 input::placeholder{
 	color:#B4B4B4!important;
