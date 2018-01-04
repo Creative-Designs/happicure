@@ -10,6 +10,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
+<script src="jquery.js"></script>
+
 	</head>
 		<body>
 		<!-- navbar -->
@@ -48,7 +50,7 @@
 			<div class="col-sm-4"></div>
 			<div class="col-sm-4"></div>
 <div class="col-sm-4 form_style effect7">
-	<h2></h2>
+	<h2 class="log_in text-center" id="click_form">Log in</h2>
 <div>
 	<a><button class="btn btn-info facebook_btn">
 	<i class="fa fa-facebook facebook_icon" aria-hidden="true"></i>Login with Facebook</button></a>
@@ -70,7 +72,7 @@
 	</div>
 	<!--join button-->
 	<div class="text-center">
-	<a href="#"><button class="btn btn-info join_btn">Join</button></a>
+	<a href="#" ><button class="btn btn-info join_btn">Join</button></a>
 	</div>
 </div>
 </div><!-- row-->
@@ -120,23 +122,27 @@
 <!--ABOUT US-->
 <div class="container">
 	<div class="row about_part ">
-	<div class="col-sm-6">
-		<h2 class="about_head text-center">ABOUT US</h2>
-		<p class="about_para">HappiCure is an online community of patients. Our mission is to engage patients through surveys and making their voice heard to healthcare organizations. We believe your participation and sharing your experiences can influence pharmaceutical and medical devices companies to improve products and services.</p>
-	</div>
-	
-	<div class="col-sm-6">
-			<h2 class="about_head text-center">Why Join HappiCure</h2>
-			<p class="why_para">
-			<i class="fa fa-check-square-o check_icon" aria-hidden="true"></i>Your opinion can influence pharmaceutical and medical devices company to improve products and services.</p>
-			<p class="why_para">
-			<i class="fa fa-check-square-o check_icon" aria-hidden="true"></i>By participating you make your voice heard in health care companies.</p>
-			<p class="why_para">
-			<i class="fa fa-check-square-o check_icon" aria-hidden="true"></i>In appreciation of your time spent, we will give you honorarium for every completed survey.</p>
+	<div class="col-sm-12">
+		<h2 class="why_head text-center">Why Join HappiCure</h2>
+			<div class="row">
+				<div class="col-sm-4">
+				<img src="img/approve-invoice.png" class="img-responsive why_img">
+					<p class="why_para text-center">Your opinion can influence pharmaceutical and medical devices company to improve products and services.</p>
+				</div>
+				<div class="col-sm-4">
+				<img src="img/list.png" class="img-responsive why_img">
+					<p class="why_para text-center">By participating you make your voice heard in health care companies.</p>
+				</div>
+				<div class="col-sm-4">
+				<img src="img/loading.png" class="img-responsive why_img">
+					<p class="why_para text-center">In appreciation of your time spent, we will give you honorarium for every completed survey.</p>
+				</div>
+			</div><!-- why row-->
+		
 		
 		</div>
-	</div>
-</div>
+	</div><!--row-->
+</div><!-- container-->
 <!-- hr line-->
 <div class="container">
 	<div class="row">
@@ -148,26 +154,103 @@
 <!----------- how its works---------->
 <div class="container">
 	<div class="row">
-	<h2 class="how_head text-center">HOW IT WORKS!</h2>
+	<h2 class="how_head text-center">How it works!</h2>
 	<h4 class="more_surveys text-center">More Surveys = More Rewards</h4>
-		<div class="col-sm-4">
-			<img src="img/pencil-and-paper.png" class="img-responsive register_icon">
-			<p class="register_text text-center">Register with us!</p>
-			<p class="register_para text-center">It is simple & easy to get onboard.<br> We make sure of your date privacy.</p>
+		<div class="col-sm-3">
+			<a href="#">
+			<div class="circle_border">
+				<img src="img/mail-send.png" class="img-responsive join_icon">
+			</div>
+			</a>
+			<p class="Priority_head text-center">Priority Invites</p>
+			<p class="Priority_para text-center">Get the first opportunity to participate in surveys related to your specialty.</p>
 		</div>
-	<div class="col-sm-4">
-		<img src="img/list-document-interface-symbol.png" class="img-responsive register_icon">
-			<p class="register_text text-center">Participate in Surveys</p>
-			<p class="register_para text-center">
-			Participate via mobile or desktop.</p>
+	<div class="col-sm-3">
+			<a href="#">
+			<div class="circle_border">
+				<img src="img/eye.png" class="img-responsive join_icon">
+			</div>
+			</a>
+			<p class="Priority_head text-center">Share your Views</p>
+			<p class="Priority_para text-center">Share your expert opinion to shape the future of your specialty.</p>
 	</div>
-	<div class="col-sm-4">
-		<img src="img/anniversary-gift-box-outline.png" class="img-responsive register_icon">
-		<p class="register_text text-center">Earn Rewards</p>
-		<p class="register_para text-center">
-		Get rewarded at the earliest with your<br> preferred mode of payment.</p>
+	<div class="col-sm-3">
+			<a href="#">
+			<div class="circle_border">
+				<img src="img/group.png" class="img-responsive join_icon">
+			</div>
+			</a>
+			<p class="Priority_head text-center">Global Community</p>
+			<p class="Priority_para text-center">Connect with peers from across the globe to share & learn medical insights.</p>
+	</div>
+	<div class="col-sm-3">
+			<a href="#">
+			<div class="circle_border">
+				<img src="img/medal.png" class="img-responsive join_icon">
+			</div>
+			</a>
+			
+			<p class="Priority_head text-center">Rewards</p>
+			<p class="Priority_para text-center">We value your time & opinion. We give industry leading honorarium for participation.</p>
+		</div>
+	</div><!--row-->
+	<!-- end how it works-->
+</div><!--cotainer-->
+<!-- about part-->
+<!-- happidoc part-->
+<div class="happidoc_background">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8">
+				<h1 class="happidoc_head text-center">About Us</h1>
+				<p class="knowledge_para text-center"></p>
+				<i class="fa fa-quote-left quote_icon" aria-hidden="true"></i>
+				<p class="happidoc_para">HappiCure is an online community of patients. Our mission is to engage patients through surveys and making their voice heard to healthcare organizations. We believe your participation and sharing your experiences can influence pharmaceutical and medical devices companies to improve products and services.</p>
+				</div><!-- col-sm-8 end-->
+			<div class="col-sm-2"></div>
 		</div>
 	</div>
+</div><!-- happidoc part-->
+<!--what doctor says-->
+<div class="container">
+	<div class="col-sm-1"></div>
+	<div class="col-sm-10">
+		<div class="row">
+			<h2 class="what_head text-center">What patient say about us?</h2>
+			<div class="col-sm-4">
+				
+				<p class="what_head_two text-center">Dr G Naidu | Cardiologist</p>
+				<p class="what_para text-center">"Well structured surveys that help clinicians provide feedback on relevant topics. " </p>
+			</div>
+			<div class="col-sm-4">
+				
+				<p class="what_head_two text-center">Dr F Shaik | Consultant Physician</p>
+				<p class="what_para text-center">"..interesting survey on  socio-economic problems associated with disease management. Look forward to receiving the survey insights." </p>
+			</div>
+			<div class="col-sm-4">
+				
+				<p class="what_head_two text-center">Dr A Aggarwal | Paediatrician</p>
+				<p class="what_para text-center">"Happi to be part of a vibrant HCP community. Have personally benefited from the knowledge shared."</p>
+			</div>
+		</div>
+	</div><!--col 8 end-->
+	<div class="col-sm-1"></div>
+</div><!-- doctor says end-->
+<!--Are you ready part-->
+<div class="grey_part">
+	<div class="container">
+	<div class="row">
+		
+		<div class="col-sm-12">
+			<h1 class="ready_head text-center">Are you ready to get started?</h1>
+			<p class="ready_para text-center">Join 400,000+ Healthcare Professionals and share your opinion in a global medical community.</p>
+	<div class="text-center">
+		<a href="#click_form"><button class="btn btn-info click_btn_one" id=""><span class="blink">Click to join 400k+ peers</span></button>
+		</div></a>
+		</div>
+	</div>
+</div>
 </div>
 <!-- footer part-->
 <div class="container-fluid">
