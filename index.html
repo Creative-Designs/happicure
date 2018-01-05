@@ -10,7 +10,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-<script src="jquery.js"></script>
+<script src="style.js"></script>
 
 	</head>
 		<body>
@@ -26,7 +26,8 @@
               <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="#">
-				<p class="logo_style">Happidoc</p>
+				
+				<p class="logo_style">HappiCure</p>
 			</a>
         </div>
 		<div id="navbar" class="navbar-collapse collapse ">
@@ -47,17 +48,30 @@
 <div class="container-fluid">
 	<div class="banner_part">
 		<div class="row">
-			<div class="col-sm-4"></div>
-			<div class="col-sm-4"></div>
+			<div class="col-sm-7">
+			<h2 class="happicure_head text-center">HappiCure</h2>
+				<p class="banner_para text-center">Knowledge | Community | Rewards for Patients</p>
+			</div>
+			<div class="col-sm-1"></div>
 <div class="col-sm-4 form_style effect7">
 	<h2 class="log_in text-center" id="click_form">Log in</h2>
-<div>
+	<!--facebook icon desktop-->
+<div class="facebook_desktop">
 	<a><button class="btn btn-info facebook_btn">
 	<i class="fa fa-facebook facebook_icon" aria-hidden="true"></i>Login with Facebook</button></a>
 	<a><button class="btn btn-danger google_btn">
 	<i class="fa fa-google google_icon" aria-hidden="true"></i>
 	Sign in with Google</button></a>
  </div>
+ <!-- mob facebook-->
+ <div class="facebook_mob">
+	<a><button class="btn btn-info facebook_btn">
+	<i class="fa fa-facebook facebook_icon" aria-hidden="true"></i> Facebook</button></a>
+	<a><button class="btn btn-danger google_btn">
+	<i class="fa fa-google google_icon" aria-hidden="true"></i>
+	Google</button></a>
+ </div>
+ <!-- mob facebook end-->
 	<div class="form-group">
         <input class="form-control my_formcontrol InputBox"  type="text" id="firstname" name="firstname" placeholder="Firstname" required="true" />
 
@@ -77,36 +91,101 @@
 </div>
 </div><!-- row-->
 	</div><!-- banner part-->
+	<!-- mobile icon-->
+	<div class="row mobile_icon">
+		<div class="col-xs-3 col">
+			<a href="#Parkinson_id">
+			<div class="mobdiseaes_border">
+				<img src="img/icon.png" class="img-responsive mobdiseaes_icon">
+			</div>
+			<p class="mob_head text-center">Parkinson’s Disease</p>
+			</a>
+		</div>
+		<div class="col-xs-3 col">
+			<a href="#Alzheimer_id">
+			<div class="mobdiseaes_border">
+				<img src="img/brain.png" class="img-responsive mobdiseaes_icon">
+				
+			</div>
+			<p class="mob_head text-center">Alzheimer’s Disease</p>
+			</a>
+		</div>
+		<div class="col-xs-3 col">
+			<a href="#can_id">
+			<div class="mobdiseaes_border">
+				<img src="img/icon_2.png" class="img-responsive mobdiseaes_icon">
+			</div>
+			<p class="mob_head">Cancer</p>
+			</a>
+		</div>
+		<div class="col-xs-3 col">
+			<a href="#Diabetes_id">
+			<div class="mobdiseaes_border">
+				<img src="img/blood.png" class="img-responsive mobdiseaes_icon_bloo">
+				
+			</div>
+			<p class="mob_head">Diabetes</p>
+			</a>
+		</div>
+	</div>
+	<!-- mobile icon end-->
 	<!-- image part-->
 	<div class="row img_part">
-		<div class="col-sm-3">
+		<div class="col-sm-3" id="Parkinson_id">
 			<h2 class="img_heading text-center">  Parkinson’s Disease</h2>
 			<img src="img/img1.jpg" class="img-responsive">
-			<p class="img_smallhead">Image heading</p>
-			<p class="img_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
-			<a href="#"><button class="btn btn-info img_btn">Read more</button></a>
+			
+			<p class="img_para flip">Parkinson’s is a neurological disorder that is mainly characterized by problems with body movements, although other symptoms can also occur. 
+
+			<span class="dot_hide"> ...</span>
+			<span class=" panel"><br><br>Parkinson’s is a slowly progressive condition that is life altering but not life threatening. However, the rate of progression of Parkinson’s and the degree of affection may vary from one individual to the other. Parkinson’s is the second most common neuro-degenerative disorder and one of the most common movement disorders.</span></p>
+			
+			
+			
+			
+			<a href="https://www.nhs.uk/conditions/parkinsons-disease/"><button class="btn btn-info img_btn">Read more</button></a>
 			
 		</div>
-		<div class="col-sm-3">
+		<div class="col-sm-3" id="Alzheimer_id">
+		
 			<h2 class="img_heading text-center">  Alzheimer’s Disease</h2>
 			<img src="img/img2.jpg" class="img-responsive">
-			<p class="img_smallhead">Image heading</p>
-			<p class="img_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
-			<a href="#"><button class="btn btn-info img_btn">Read more</button></a>
+
+			<p class="img_para flip">In India, more than 4 million people have some form of dementia. Worldwide, at least 44 million people are living with dementia, making the disease a global health crisis that must be addressed.
+			<span class="dot_hide"> ...</span>
+			<span class=" panel">
+			 Alzheimer's disease is the most common type of dementia, an overall term for conditions that occur when the brain no longer functions properly. Alzheimer’s causes problems with memory, thinking and behavior. In the early stage, dementia symptoms may be minimal, but as the disease causes more damage to the brain, symptoms worsen. The rate at which the disease progresses is different for everyone, but on average, people with Alzheimer’s live for eight years after symptoms begin.</span></p>
+			<a href="https://www.alzheimers.org.uk/info/20007/types_of_dementia/2/alzheimers_disease"><button class="btn btn-info img_btn">Read more</button></a>
 		</div>
 		<div class="col-sm-3">
-			<h2 class="img_heading text-center">  Cancer</h2>
+			<h2 class="img_heading text-center" id="can_id">  Cancer</h2>
 			<img src="img/img3.jpg" class="img-responsive">
-			<p class="img_smallhead">Image heading</p>
-			<p class="img_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
-			<a href="#"><button class="btn btn-info img_btn">Read more</button></a>
+				<p class="img_para flip">Cancer is the name given to a collection of related diseases that are caused when a group of abnormal cells begins to grow uncontrollably, often forming a tumour.
+			
+			There are two types of tumours. <span class="dot_hide"> ...</span>
+			<span class="img_para panel"><br><br>The first is benign tumours that do not spread into, or invade, nearby tissues. When removed they usually don’t grow back. An important fact is that unlike most benign tumors elsewhere in the body, benign brain tumors can be life threatening.</span>
+			<span class="img_para panel"><br><br>The other type of tumours are malignant, or tumours that invade nearby tissues, sometimes spreading to distant areas of the body (known as metastasizing). This tumour are more dangerous as they give rise to new tumours and can recur even after removal.</span>
+			<span class="img_para panel"><br><br>The good news is that if cancer is detected in its early stages, it can be treated and an individual can lead a healthy life. Also, advances in treatment and awareness of symptoms mean that 85 per cent of those diagnosed live beyond five years.</span>
+			</p>
+			
+			
+			<a href="http://www.cancerresearchuk.org/about-cancer/what-is-cancer"><button class="btn btn-info img_btn">Read more</button></a>
 		</div>
-		<div class="col-sm-3">
+		<div class="col-sm-3" id="Diabetes_id">
 			<h2 class="img_heading text-center">  Diabetes</h2>
 			<img src="img/img4.jpg" class="img-responsive">
-			<p class="img_smallhead">Image heading</p>
-			<p class="img_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
-			<a href="#"><button class="btn btn-info img_btn">Read more</button></a>
+			<p class="img_para flip">India is home to over 60 million adults with diabetes (7.8% of the population), of which more than 30 million are undiagnosed or untreated, thus increasing the risk of developing complications and premature mortality.
+			<span class="dot_hide"> ...</span>
+			<span class="img_para panel"><br><br>According to the official WHO data, India tops the list of countries with the highest number of diabetics; China, America, Indonesia, Japan, Pakistan, Russia, Brazil, Italy and Bangladesh follow.</span>
+			<span class="img_para panel"><br><br>Diabetes Mellitus is a condition wherein a person is either incapable of producing insulin or the body is not able to utilize the insulin present in the body. While many consider diabetes as an ailment with genetic predisposition, today it has become one of the leading lifestyle ailments. Diabetes is characterized by prolonged elevated blood sugar levels which further expose a person to risk of developing a range of health issues including cardiovascular diseases.</span>
+			</p>
+			
+			
+			
+			
+			
+		
+			<a href="http://www.who.int/diabetes/en/"><button class="btn btn-info img_btn">Read more</button></a>
 		</div>
 	</div>
 </div><!-- container fluid-->
@@ -126,16 +205,25 @@
 		<h2 class="why_head text-center">Why Join HappiCure</h2>
 			<div class="row">
 				<div class="col-sm-4">
-				<img src="img/approve-invoice.png" class="img-responsive why_img">
-					<p class="why_para text-center">Your opinion can influence pharmaceutical and medical devices company to improve products and services.</p>
+				<img src="img/customer-reviews.png" class="img-responsive why_img" alt="one">
+					<p class=" why_small_head text-center">Learn from other patients</p>
+					<p class="why_para">Patients are very knowledgeable about their disease. You can share your experience with the community and learn from it too.
+					</p>
 				</div>
 				<div class="col-sm-4">
-				<img src="img/list.png" class="img-responsive why_img">
-					<p class="why_para text-center">By participating you make your voice heard in health care companies.</p>
+				<img src="img/add.png" class="img-responsive why_img" alt="two">
+					<p class=" why_small_head text-center">Read the latest trends in treatment.</p>
+					<p class="why_para">Know how advances in medicine can mean better treatment options and fewer side effects.
+
+					</p>
 				</div>
 				<div class="col-sm-4">
-				<img src="img/loading.png" class="img-responsive why_img">
-					<p class="why_para text-center">In appreciation of your time spent, we will give you honorarium for every completed survey.</p>
+				<img src="img/microphone.png" class="img-responsive why_img">
+					<p class=" why_small_head text-center">Share your views.</p>
+					<p class="why_para">Help healthcare companies design and deliver better products and services, by voicing your opinion.
+
+
+					</p>
 				</div>
 			</div><!-- why row-->
 		
@@ -155,44 +243,35 @@
 <div class="container">
 	<div class="row">
 	<h2 class="how_head text-center">How it works!</h2>
-	<h4 class="more_surveys text-center">More Surveys = More Rewards</h4>
-		<div class="col-sm-3">
+	<h4 class="more_surveys text-center"></h4>
+		<div class="col-sm-4">
 			<a href="#">
 			<div class="circle_border">
 				<img src="img/mail-send.png" class="img-responsive join_icon">
 			</div>
 			</a>
 			<p class="Priority_head text-center">Priority Invites</p>
-			<p class="Priority_para text-center">Get the first opportunity to participate in surveys related to your specialty.</p>
+			<p class="Priority_para text-center">Get the first opportunity to participate in surveys related to your health condition.</p>
 		</div>
-	<div class="col-sm-3">
+	<div class="col-sm-4">
 			<a href="#">
 			<div class="circle_border">
 				<img src="img/eye.png" class="img-responsive join_icon">
 			</div>
 			</a>
-			<p class="Priority_head text-center">Share your Views</p>
-			<p class="Priority_para text-center">Share your expert opinion to shape the future of your specialty.</p>
+			<p class="Priority_head text-center">Share your Insights</p>
+			<p class="Priority_para text-center">Share your expert opinion to shape the future of treatment for yourself and fellow patients.</p>
 	</div>
-	<div class="col-sm-3">
-			<a href="#">
-			<div class="circle_border">
-				<img src="img/group.png" class="img-responsive join_icon">
-			</div>
-			</a>
-			<p class="Priority_head text-center">Global Community</p>
-			<p class="Priority_para text-center">Connect with peers from across the globe to share & learn medical insights.</p>
-	</div>
-	<div class="col-sm-3">
+	<div class="col-sm-4">
 			<a href="#">
 			<div class="circle_border">
 				<img src="img/medal.png" class="img-responsive join_icon">
 			</div>
 			</a>
-			
 			<p class="Priority_head text-center">Rewards</p>
-			<p class="Priority_para text-center">We value your time & opinion. We give industry leading honorarium for participation.</p>
-		</div>
+			<p class="Priority_para text-center">We value your time & opinion. We give industry leading honorarium for participation in online surveys.</p>
+	</div>
+	
 	</div><!--row-->
 	<!-- end how it works-->
 </div><!--cotainer-->

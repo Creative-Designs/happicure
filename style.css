@@ -35,6 +35,13 @@ hr {
     margin: 1em 0;
     padding: 0; 
 }
+.dot_hide{
+	font-size:20px;
+	color:#DE8503;
+	font-weight:bold;
+	letter-spacing:4px;
+}
+
 .join_new_btn{
 	background:#313D4F;
 	color:#fff;
@@ -53,6 +60,20 @@ hr {
 	min-height:33px;
 	position:relative;
 	padding:0 40px 0 0;
+}
+.banner_para{
+	font-size:26px;
+	color:#fff;
+	
+	margin:20px 0 20px 20px;
+}
+.happicure_head{
+	font-size:46px;
+	font-weight:bold;
+	color:#fff;
+	font-family:'head_font';
+	
+	margin:100px 0 20px 20px;
 }
 /*================navbar==============*/
 .navigation_style{
@@ -102,11 +123,15 @@ input::placeholder{
 	
 }
 /*=================facebook_btn============*/
+.facebook_mob{
+	display:none;
+}
 .facebook_btn{
 	background:#3B5998;
 	border:none;
 	border-radius:2px;
 	font-size:15px;
+	
 }
 .facebook_icon{
 	margin:0 10px 0 0;
@@ -178,13 +203,13 @@ input::placeholder{
 	font-size:50px;
 	color:#302F2F;
 	font-family:'head_font';
-	margin:30px 0 10px 0;
+	margin:30px 0 0 0;
 }
 .join_icon{
 	margin:20px auto;
 }
 .circle_border{
-	margin:50px auto;
+	margin:30px auto;
 	width:120px;
 	height:120px;
 	border-radius:50%;
@@ -309,7 +334,13 @@ input::placeholder{
 	font-size:50px;
 	color:#302F2F;
 	font-family:'head_font';
-	margin:10px 0 50px 0;
+	margin:10px 0 80px 0;
+}
+.why_small_head{
+	font-size:18px;
+	font-weight:bold;
+	color:#43565D;
+	margin:30px 10px 0 10px;
 }
 .why_img{
 	margin:0 auto;
@@ -317,7 +348,6 @@ input::placeholder{
 .why_para{
 	font-size:16px;
 	color:#43565D;
-
 	margin:30px 10px 0 10px;
 }
 .check_icon{
@@ -360,9 +390,81 @@ input::placeholder{
 	color:#3498db;
 	transition:ease .3s;
 }
+/*=====================mobile icon==============*/
+.mobile_icon{
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*==================media query=================*/
  @media screen and (min-width:100px) and (max-width:400px){
+	 /*=============mobile icon========*/
+	
+	 .mobile_icon{
+		 display:block;
+	 }
+	 .col{
+		 width:22%!important;
+	 }
+	.mobdiseaes_border{
+	margin:10px 0 0 10px;
+	width:70px;
+	height:70px;
+	border-radius:50%;
+	background:#17AFC8;
+	transition:ease .2s;
+}
+.mobdiseaes_icon_bloo{
+	padding:8px 5px 5px 12px;
+	
+}
+.mobdiseaes_icon{
+	padding:10px;
+}
+/*===============mobile end============*/
+
+	 .facebook_desktop{
+		 display:none;
+	 }
+.facebook_mob{
+	display:block;
+}
+	 .banner_part{
+		 background:url('img/banner_2.jpg') repeat-y;
+	 }
+	 .happicure_head{
+	font-size:46px;
+	font-weight:bold;
+	color:#fff;
+	font-family:'head_font';
+	
+	margin:20px 0 20px 20px;
+}
 	 /*============start part=================*/
 .grey_part{
 	background:#f5f5f5;
@@ -397,12 +499,14 @@ input::placeholder{
 	/*=================facebook_btn============*/
 	.form_style{
   
-	margin:-10px 0 0 40px;
+	margin:-10px 0 20px 40px;
 	background:#313D4F;
 	padding:30px;
 }
-	.InputBox{
-		width:100%;
+.InputBox{
+	width:120px;
+	float:left;
+	display:inline !important;
 	}
 	.navigation_style{
 	padding:0 0 0 0;
@@ -413,15 +517,17 @@ input::placeholder{
 	border:none;
 	border-radius:2px;
 	font-size:15px;
-	width:100%;
-	margin:0 0 20px 0;
+	width:47%;
+	margin:0 10px 10px 0;
+	
 }
 .facebook_icon{
 	margin:0 10px 0 0;
 	font-size:20px;
 }
 .google_btn{
-	width:100%;
+	float:right;
+	width:47%;
 	background:#D34836;
 	border:none;
 	border-radius:2px;
@@ -440,6 +546,7 @@ input::placeholder{
 	font-weight:bold;
 	width:120px;
 }
+
 /*==========img part================*/
 .img_heading{
 	font-size:28px;
@@ -468,7 +575,7 @@ input::placeholder{
 }
 /*================img part=================*/
 .img_part{
-	padding:50px;
+	padding:10px;
 }
 /*=================how it works===============*/
 .how_head{
@@ -545,6 +652,18 @@ input::placeholder{
 	color:#0F7BA3;
 
 	margin:0 20px 10px 0;
+}
+.why_head{
+	font-size:30px;
+	color:#302F2F;
+	font-family:'head_font';
+	margin:10px 0 20px 0;
+}
+.mob_head{
+	font-size:14px;
+	color:#302F2F;
+	font-family:'head_font';
+	margin:10px 0 30px 10px;
 }
 
 
