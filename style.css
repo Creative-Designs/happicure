@@ -12,13 +12,12 @@
 	src:url('fonts/boldfont.ttf');	
 }
 
-	
 body {
     overflow-x: hidden !important;
 	}
 .container {
         max-width: 100% !important;
-        overflow-x: hidden !important;
+      //  overflow-x: hidden !important;
            }
 .container-fluid {
 overflow-x: hidden !important;
@@ -41,7 +40,9 @@ hr {
 	font-weight:bold;
 	letter-spacing:4px;
 }
-
+.happi_logo{
+	
+}
 .join_new_btn{
 	background:#313D4F;
 	color:#fff;
@@ -49,16 +50,18 @@ hr {
 	border:none;
 	border:1px solid #313D4F;
 	transition:ease .3s;
+	margin:10px 0 0 0!important;
 }
 .join_new_btn:hover{
 	background:#fff;
 	border:1px solid #313D4F;
 	transition:ease .3s;
 }
+.logo_happicure{
+	margin:-10px 0 0 0;
+}
 .banner_part{
 	background:url('img/banner_2.jpg') no-repeat;
-	min-height:33px;
-	position:relative;
 	padding:0 40px 0 0;
 }
 .banner_para{
@@ -77,13 +80,13 @@ hr {
 }
 /*================navbar==============*/
 .navigation_style{
-	padding:0 0 0 190px;
+	padding:10px 0 0 190px;
 	
 }
 .navar_mystyle{
+	
 	background:transparent!important;
 	border:none!important;
-	
 }
 .log_in{
 	font-size:30px;
@@ -156,6 +159,7 @@ input::placeholder{
 	color:#313D4F;
 	font-weight:bold;
 	width:120px;
+
 }
 .join_btn:hover{
 	background:#0989AB;
@@ -256,7 +260,7 @@ input::placeholder{
 }
 /*==================footer part===========*/
 .footer_part{
-	background:#353535;
+	background:#1A839F;
 	padding:10px;
 }
 .footer_text{
@@ -573,6 +577,12 @@ input::placeholder{
 	border-radius:0;
 	height:40px;
 }
+.happidoc_head{
+	font-size:40px;
+	color:#fff;
+	margin:10px 0 0 0;
+	font-family:'head_font';
+}
 /*================img part=================*/
 .img_part{
 	padding:10px;
@@ -607,6 +617,19 @@ input::placeholder{
 	margin:0px 0 50px 0;
 
 }
+/*==================why join===========*/
+.why_head{
+	font-size:50px;
+	color:#302F2F;
+	font-family:'head_font';
+	margin:10px 0 80px 0;
+}
+.why_small_head{
+	font-size:18px;
+	font-weight:bold;
+	color:#43565D;
+	margin:10px 10px 0 10px;
+}
 /*==================footer part===========*/
 .footer_part{
 	background:#11BBCF;
@@ -627,7 +650,7 @@ input::placeholder{
 }
 /*============about==================*/
 .about_part{
-	padding:20px 40px 10px 40px;
+	padding:0 40px 10px 40px;
 }
 .about_head{
 	font-size:25px;
@@ -658,6 +681,9 @@ input::placeholder{
 	color:#302F2F;
 	font-family:'head_font';
 	margin:10px 0 20px 0;
+}
+.why_img{
+	margin:10px auto;
 }
 .mob_head{
 	font-size:14px;
@@ -932,10 +958,7 @@ input::placeholder{
 
 }
 /*=============media query ipad pro============*/
-@media screen and (min-width:1025px) and (max-width:1200px){
-	
-	
-}
+
 
 
 
